@@ -91,11 +91,11 @@
 		</dependency>	
 	</dependencies>
 	<distributionManagement>
-	    <releaserepository>
+	    <repository>
 	      <id>nexus</id>
 	      <name>Landmark Technologies Releases Nexus Repository</name>
 	      <url>http://54.226.107.186:8081/repository/Hays-release/</url>
-	    </releaserepository>
+	    </repository>
 	    
 	    <snapshotRepository>
 	      <id>nexus</id>
