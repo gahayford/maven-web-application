@@ -22,8 +22,8 @@
 		<spring.version>5.1.2.RELEASE</spring.version>
 		<junit.version>4.11</junit.version>
 		<log4j.version>1.2.17</log4j.version>
-		<sonar.host.url>http://18.234.61.21:9000/</sonar.host.url>
-		<sonar.login>953037412f1c54ab85e8005076ade630061688eb</sonar.login>
+		<sonar.host.url>http://54.210.184.186:9000/</sonar.host.url>
+		<sonar.login>809ccbf2b123d354b8f741555d4757b0026a55f0</sonar.login>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 	</properties>
@@ -91,16 +91,16 @@
 		</dependency>	
 	</dependencies>
 	<distributionManagement>
-	    <repository>
+	    <releaserepository>
 	      <id>nexus</id>
 	      <name>Landmark Technologies Releases Nexus Repository</name>
-	      <url>http://3.80.48.45:8081/repository/TD-releases/</url>
-	    </repository>
+	      <url>http://54.226.107.186:8081/repository/Hays-release/</url>
+	    </releaserepository>
 	    
 	    <snapshotRepository>
 	      <id>nexus</id>
 	      <name>Landmark Technologies Snapshot Nexus Repository </name>
-	      <url>http://3.80.48.45:8081/repository/TD-snapshot/</url>
+	      <url>http://54.226.107.186:8081/repository/Hays-Snapshot/</url>
 	    </snapshotRepository>
 	    
 	</distributionManagement>
